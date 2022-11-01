@@ -110,8 +110,6 @@ end proc:
 GetMonomials := proc(Hh, ordering_)
     local Mon_, f, each:
     Mon_ := [seq(op(expand(f)), f in Hh)]:
-    print(Mon_):
-    quit;
     Mon_ := [seq(each/Groebner:-LeadingCoefficient(each, ordering_), each in Mon_)]:
     Mon_ := [op(sort(add(Mon_), order=ordering_))]:
     Mon_ := [seq(each/Groebner:-LeadingCoefficient(each, ordering_), each in Mon_)]:
