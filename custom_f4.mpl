@@ -3,6 +3,7 @@ BasicF4Alg := proc(Ff, vars, {weights:="", max_iter:=-1})
     lcms, idxs, LM, LM_i, LM_j, Mm, LCM, numiter,
     global_counts, v, t, start, dd, pair, each, Mon_, Hh, N,
     N_plus, leading_monomials_, divisibility, lm, all_vars:
+
     global_counts := table([seq(v=0, v in vars)]):
     Gg := Ff:
     ordering_ := tdeg(op(vars)):
