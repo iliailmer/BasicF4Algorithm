@@ -8,7 +8,7 @@ vars:=[xC_3, xB_3, xA_3, eC_3, eA_3, xC_2, xB_2, xA_2, eC_2, eA_2, xC_1, xB_1, x
 # out := [entries(BasicF4Alg(et_hat, vars, weights=""), `pairs`)]: 
 # _mean := add([seq(rhs(x), x in out)])/numelems(out):
 # w:= {seq(lhs(v)=lhs(v)^2, v in select(x->rhs(x)<_mean, out))}:
-printf("\n\nWeights:    %a\n\n", w):
+# printf("\n\nWeights:    %a\n\n", w):
 gb:=CodeTools[Usage](Groebner[Basis](et_hat, tdeg(op(vars)), characteristic=11863279),output='all'):
 
 printf("\n%a\n", gb):
