@@ -1,3 +1,6 @@
+kernelopts(printbytes=false, assertlevel=1):
+interface(echo=0, prettyprint=0):
+
 read "../custom_f4.mpl";
 infolevel[Groebner]:= 5;
 var := [x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12]:
@@ -20,7 +23,9 @@ out := [entries(BasicF4Alg(sys, var, weights=""), `pairs`)]; # [x4 = 5, x5 = 9, 
 
 # print(Groebner:-IsBasis(out, tdeg(op(var))));
 _mean := add([seq(rhs(x), x in out)])/numelems(out):
-w:= {seq(lhs(v)=lhs(v)^2, v in select(x->rhs(x)=0, out))};
+w:= {seq(lhs(v)=lhs(v)^2, v in select(x->rhs(x)=0, out))}; # {seq(lhs(v)=lhs(v)^2, v in select(x->rhs(x)<_mean, out))};
 print(w):
 
-gb := Groebner:-Basis(subs(w, sys), tdeg(op(var))):
+gb := Groebner:-Basis(subs(w, sys), tdeg(op(var)), characteristic=11863279):
+
+gb := Groebner:-Basis(sys, tdeg(op(var)), characteristic=11863279):
