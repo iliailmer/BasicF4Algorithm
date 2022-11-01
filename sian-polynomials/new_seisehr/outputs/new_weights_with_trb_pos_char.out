@@ -1,0 +1,21 @@
+    |\^/|     Maple 2022 (X86 64 LINUX)
+._|\|   |/|_. Copyright (c) Maplesoft, a division of Waterloo Maple Inc. 2022
+ \  MAPLE  /  All rights reserved. Maple is a trademark of
+ <____ ____>  Waterloo Maple Inc.
+      |       Type ? for help.
+> read "../custom_f4.mpl":
+> kernelopts(printbytes=false, assertlevel=1):
+> interface(echo=0, prettyprint=0):
+
+
+iteration no. 1	 max. iterations: -1
+time for selection: 6.047
+time for computing M: 79.277, size:Array(1..2, [685,686])
+time for computing N (rref): 166.003
+time for computing leading monomials: .58e-1
+time for computing N+: 22.919
+
+
+iteration no. 2	 max. iterations: -1
+time for selection: 6.648
+time for computing M: 12269.217, size:Array(1..2, [5868,7085])

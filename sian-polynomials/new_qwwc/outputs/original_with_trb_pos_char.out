@@ -1,0 +1,77 @@
+    |\^/|     Maple 2022 (X86 64 LINUX)
+._|\|   |/|_. Copyright (c) Maplesoft, a division of Waterloo Maple Inc. 2022
+ \  MAPLE  /  All rights reserved. Maple is a trademark of
+ <____ ____>  Waterloo Maple Inc.
+      |       Type ? for help.
+> read "../custom_f4.mpl":
+> kernelopts(printbytes=false, assertlevel=1):
+> interface(echo=0, prettyprint=0):
+
+
+Weights:    w
+
+-> MGb
+ domain: mod_int_cof
+F4 algorithm
+prime=11863279
+ deg  pairs  taken         matrix                                        found
+   2     62     23       103 x 144          3.2 per row,     0.0 MB     23 new,      0 zero     0.005 sec
+   3    150    150       954 x 1470         4.5 per row,     0.0 MB    119 new,     31 zero     0.015 sec
+   3   1222    267      1469 x 2134        21.7 per row,     0.2 MB     63 new,    204 zero     0.011 sec
+   4   2463   1712     12674 x 16890       33.4 per row,     3.3 MB    511 new,   1201 zero     0.288 sec
+   4  11185   2327     20964 x 34330       62.1 per row,    10.0 MB   1095 new,   1232 zero     1.651 sec
+   4  30452   1422     26571 x 41369      166.7 per row,    33.9 MB    617 new,    805 zero     1.298 sec
+   5  43570  41694    304697 x 336894     511.6 per row,  1190.4 MB   8974 new,  32814 zero    98.186 sec
+   5 155911  26397    303105 x 344276     896.8 per row,  2074.9 MB   9105 new,  17292 zero error in mgb
+ total time:       250.835 sec
+------------------------------
+-> F4 algorithm
+ domain: mod_int_cof   coeffs: mod_int
+ ----------------------------
+ basis: 20 of 43, syzygies: 30 of 62, degree: 2
+ 64 x 64 with 30 rhs
+ symbolic preproc       0.006 sec
+ linear solve           0.002 sec
+ build result           0.000 sec
+ 30 non-zero remainders
+ 23 distinct leading terms
+ inter reduce           0.000 sec
+ 23 polynomials added to basis
+ ----------------------------
+ basis: 43 of 66, syzygies: 143 of 143, degree: 3
+ 542 x 542 with 143 rhs
+ symbolic preproc       0.092 sec
+ linear solve           0.042 sec
+ build result           0.013 sec
+ 133 non-zero remainders
+ 119 distinct leading terms
+ inter reduce           0.072 sec
+ 119 polynomials added to basis
+ ----------------------------
+ basis: 155 of 185, syzygies: 337 of 1384, degree: 3
+ 1219 x 1219 with 337 rhs
+ symbolic preproc       0.601 sec
+ linear solve           0.441 sec
+ build result           0.351 sec
+ 250 non-zero remainders
+ 33 distinct leading terms
+ inter reduce           0.486 sec
+ 63 polynomials added to basis
+ ----------------------------
+ basis: 218 of 248, syzygies: 2198 of 3330, degree: 4
+ 10950 x 10950 with 2198 rhs
+ symbolic preproc       7.196 sec
+ linear solve          51.077 sec
+ build result          27.302 sec
+ 1910 non-zero remainders
+ 394 distinct leading terms
+ inter reduce          56.278 sec
+ 511 polynomials added to basis
+ ----------------------------
+ basis: 647 of 759, syzygies: 3031 of 16650, degree: 4
+ 19636 x 19636 with 3031 rhs
+ symbolic preproc      77.603 sec
+ linear solve         315.340 sec
+ build result         130.806 sec
+ 2570 non-zero remainders
+ 635 distinct leading terms

@@ -1,0 +1,60 @@
+    |\^/|     Maple 2022 (X86 64 LINUX)
+._|\|   |/|_. Copyright (c) Maplesoft, a division of Waterloo Maple Inc. 2022
+ \  MAPLE  /  All rights reserved. Maple is a trademark of
+ <____ ____>  Waterloo Maple Inc.
+      |       Type ? for help.
+> read "../custom_f4.mpl":
+> kernelopts(printbytes=false, assertlevel=1):
+> interface(echo=0, prettyprint=0):
+
+
+Weights:    w
+
+-> MGb
+ domain: mod_int_cof
+F4 algorithm
+prime=11863279
+ deg  pairs  taken         matrix                                        found
+   2     75      7        14 x 22           2.5 per row,     0.0 MB      7 new,      0 zero     0.004 sec
+   3     89     72       334 x 404          2.7 per row,     0.0 MB     51 new,     21 zero     0.042 sec
+   3    350    127       334 x 326          5.7 per row,     0.0 MB     36 new,     91 zero     0.002 sec
+   3    435    204       482 x 332         10.2 per row,     0.0 MB      0 new,    204 zero     0.001 sec
+   4    231    221       687 x 1207         4.2 per row,     0.0 MB    165 new,     56 zero     0.022 sec
+   3   2318     10        30 x 36           5.7 per row,     0.0 MB      1 new,      9 zero     0.001 sec
+   4   2310   1332      4489 x 5387        11.9 per row,     0.4 MB    229 new,   1103 zero     0.071 sec
+   4   6155    140      1005 x 1828        18.1 per row,     0.1 MB      1 new,    139 zero     0.005 sec
+   5   6039   3442     19153 x 27636       16.2 per row,     2.4 MB    649 new,   2793 zero     0.654 sec
+   5  15323   3972     18720 x 28160       61.1 per row,     8.8 MB   1907 new,   2065 zero     3.783 sec
+   5  54224  13212     69194 x 86652      140.3 per row,    74.3 MB   5989 new,   7223 zero    42.304 sec
+   5 141425  17238     98146 x 117778     261.1 per row,   195.9 MB   6967 new,  10271 zero    85.534 sec
+   5 146137  45386    151780 x 141850     412.2 per row,   477.9 MB  11387 new,  33999 zero   149.983 sec
+   3 108911    233      1022 x 919         16.6 per row,     0.1 MB     60 new,    173 zero     1.189 sec
+   3  94495    645      1335 x 787          8.0 per row,     0.1 MB     34 new,    611 zero     0.231 sec
+   3  77429    158       435 x 420          6.8 per row,     0.0 MB     75 new,     83 zero     0.274 sec
+   2  35151    101       218 x 136          2.9 per row,     0.0 MB      6 new,     95 zero     0.122 sec
+   3  26019    649      1502 x 920          4.7 per row,     0.1 MB     22 new,    627 zero     0.127 sec
+   3  18934    104       258 x 190          3.2 per row,     0.0 MB     10 new,     94 zero     0.111 sec
+   3  18815    144       392 x 438          6.1 per row,     0.0 MB     76 new,     68 zero     0.138 sec
+   2  19110    115       268 x 206          3.3 per row,     0.0 MB      3 new,    112 zero     0.107 sec
+   3  18982    643      1668 x 1171         5.3 per row,     0.1 MB      0 new,    643 zero     0.113 sec
+   4  18339   7187     20774 x 13880      123.5 per row,    19.7 MB    148 new,   7040 zero     0.195 sec
+   3  10821    273       576 x 373          5.1 per row,     0.0 MB     35 new,    238 zero     0.110 sec
+   2  10241     74       171 x 101          4.4 per row,     0.0 MB      1 new,     73 zero     0.097 sec
+   2  10163      1         2 x 2            2.0 per row,     0.0 MB      0 new,      1 zero     0.097 sec
+   3  10162     13        30 x 19           2.2 per row,     0.0 MB      0 new,     13 zero     0.097 sec
+   4  10149    142      2210 x 2075         3.3 per row,     0.1 MB      0 new,    142 zero     0.102 sec
+   5  10007  10005     72601 x 62622      133.8 per row,    74.4 MB      0 new,  10005 zero     0.388 sec
+   6      2      2      4064 x 4064         3.2 per row,     0.1 MB      0 new,      2 zero     0.079 sec
+reduce:                   47 x 55           2.4 per row,     0.0 MB
+select:      5.493 sec   2%
+symbol:      1.433 sec   1%
+matrix:     36.745 sec  13%   27859 good, 73.7% zero
+update:    242.313 sec  85%  105852 pair, 99.9% elim
+gbasis:    286.302 sec   2%      45 polynomials
+basis:    2408.006
+ 45 polynomials, 104 terms
+ total time:       286.306 sec
+------------------------------
+
+gb
+memory used=2.4MB, alloc=8.3MB, time=2408.06

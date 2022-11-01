@@ -1,0 +1,227 @@
+    |\^/|     Maple 2022 (X86 64 LINUX)
+._|\|   |/|_. Copyright (c) Maplesoft, a division of Waterloo Maple Inc. 2022
+ \  MAPLE  /  All rights reserved. Maple is a trademark of
+ <____ ____>  Waterloo Maple Inc.
+      |       Type ? for help.
+> read "../custom_f4.mpl":
+> kernelopts(printbytes=false, assertlevel=1):
+> interface(echo=0, prettyprint=0):
+
+
+iteration no. 1	 max. iterations: -1
+time for selection: 1.171
+time for computing M: .618, size:Array(1..2, [196,106])
+time for computing N (rref): 1.379
+time for computing leading monomials: .11e-1
+time for computing N+: 1.225
+
+
+iteration no. 2	 max. iterations: -1
+time for selection: .957
+time for computing M: 2.812, size:Array(1..2, [76,152])
+time for computing N (rref): .556
+time for computing leading monomials: .5e-2
+time for computing N+: .294
+
+
+iteration no. 3	 max. iterations: -1
+time for selection: 1.411
+time for computing M: 616.230, size:Array(1..2, [1675,2245])
+time for computing N (rref): 4868.128
+time for computing leading monomials: .115
+time for computing N+: 248.720
+
+
+iteration no. 4	 max. iterations: -1
+time for selection: 5.920
+
+
+Weights:    {Di_10 = Di_10^2, Di_11 = Di_11^2, Di_7 = Di_7^2, Di_8 = Di_8^2, Di_9 = Di_9^2, b = b^2, e_0 = e_0^2, e_1 = e_1^2, e_10 = e_10^2, e_11 = e_11^2, e_12 = e_12^2, e_2 = e_2^2, e_3 = e_3^2, e_4 = e_4^2, e_5 = e_5^2, e_6 = e_6^2, e_7 = e_7^2, e_8 = e_8^2, e_9 = e_9^2, i_0 = i_0^2, i_1 = i_1^2, i_11 = i_11^2, mu0 = mu0^2, mu_d = mu_d^2, mu_i = mu_i^2, n = n^2, nu = nu^2, q = q^2, s_0 = s_0^2, s_1 = s_1^2, s_10 = s_10^2, s_11 = s_11^2, s_2 = s_2^2, s_3 = s_3^2, s_4 = s_4^2, s_5 = s_5^2, s_6 = s_6^2, s_7 = s_7^2, s_8 = s_8^2, s_9 = s_9^2, sgm = sgm^2, sgm_d = sgm_d^2, w_aux = w_aux^2, z_aux = z_aux^2}
+
+-> MGb
+ domain: mod_int_cof
+F4 algorithm
+prime=11863279
+ deg  pairs  taken         matrix                                        found
+   4    417     91       247 x 735          4.9 per row,     0.0 MB     91 new,      0 zero     0.029 sec
+   3   1193    112       241 x 146          2.0 per row,     0.0 MB      0 new,    112 zero     0.001 sec
+   4   1081     84       335 x 330          2.5 per row,     0.0 MB      0 new,     84 zero     0.001 sec
+   5    997    582      2334 x 3675         4.8 per row,     0.1 MB    154 new,    428 zero     0.043 sec
+   4   3226    156       595 x 742          6.0 per row,     0.0 MB      4 new,    152 zero     0.003 sec
+   5   3132    433      3053 x 4507        13.0 per row,     0.3 MB     40 new,    393 zero     0.023 sec
+   5   3433    217      1373 x 2627        10.9 per row,     0.1 MB     87 new,    130 zero     0.030 sec
+   4   4674    290      1191 x 1651        33.4 per row,     0.3 MB     24 new,    266 zero     0.012 sec
+   5   4839    764      6400 x 9689        34.4 per row,     1.7 MB     70 new,    694 zero     0.069 sec
+   5   5257    114      1353 x 2352        40.6 per row,     0.4 MB      3 new,    111 zero     0.008 sec
+   6   5198   2932     31089 x 45852       29.5 per row,     7.1 MB    377 new,   2555 zero     0.579 sec
+   4   9595     22        97 x 83           3.1 per row,     0.0 MB      0 new,     22 zero     0.011 sec
+   5   9573   1420      6586 x 8727        72.7 per row,     3.7 MB    102 new,   1318 zero     0.127 sec
+   6  11024   3859     30145 x 42798       90.2 per row,    20.9 MB    345 new,   3515 zero     0.776 sec
+   5  13588    177      2426 x 5530        85.8 per row,     1.6 MB     12 new,    165 zero     0.047 sec
+   4  13581      9       191 x 585         75.5 per row,     0.1 MB      0 new,      9 zero     0.006 sec
+   5  13572     36       817 x 2878        57.3 per row,     0.4 MB      4 new,     32 zero     0.013 sec
+   6  13620   1671     15667 x 26996      105.1 per row,    12.6 MB    119 new,   1552 zero     0.293 sec
+   5  14512     51      1190 x 2587        67.1 per row,     0.6 MB      2 new,     49 zero     0.018 sec
+   6  14502    169      7196 x 13969       99.2 per row,     5.5 MB      3 new,    166 zero     0.058 sec
+   5  14340     14       838 x 2081       132.9 per row,     0.9 MB      0 new,     14 zero     0.011 sec
+   6  14326     10      2046 x 4977       115.4 per row,     1.8 MB      3 new,      7 zero     0.021 sec
+   5  14340     14      1027 x 2345       135.2 per row,     1.1 MB      0 new,     14 zero     0.010 sec
+   6  14326     10      2416 x 5652       114.7 per row,     2.1 MB      3 new,      7 zero     0.023 sec
+   5  14345     14       722 x 2044       160.0 per row,     0.9 MB      0 new,     14 zero     0.010 sec
+   6  14331     10      1727 x 4634       135.9 per row,     1.8 MB      3 new,      7 zero     0.019 sec
+   7  14411   7662    129192 x 185062      80.7 per row,    80.0 MB    391 new,   7271 zero     2.245 sec
+   6  14832    741      7195 x 12360       91.6 per row,     5.1 MB     15 new,    726 zero     0.110 sec
+   7  14256   2236     39806 x 65185      110.9 per row,    33.8 MB     48 new,   2191 zero     0.520 sec
+   8  13196   6557    301235 x 429213      86.9 per row,   200.8 MB    101 new,   6462 zero     3.981 sec
+   8   9649     39     29069 x 42000      129.7 per row,    28.9 MB      4 new,     35 zero     0.240 sec
+   9   9713   4030    586207 x 817926      91.5 per row,   411.4 MB    205 new,   3825 zero     9.098 sec
+   9  19257    724     45996 x 75640      123.0 per row,    43.3 MB     75 new,    649 zero     0.714 sec
+  10  21801   5287   1009554 x 1464042     98.8 per row,   764.6 MB   1576 new,   3711 zero    23.855 sec
+   9  85989    835      7924 x 17727       19.4 per row,     1.2 MB     41 new,    794 zero     0.607 sec
+  10  88751   5164    125893 x 289233      98.8 per row,    95.4 MB   1800 new,   3364 zero    13.962 sec
+   8 162506   1205     12939 x 17197       42.2 per row,     4.2 MB    165 new,   1040 zero     1.784 sec
+   9 166710   4059     75793 x 200937      75.6 per row,    44.0 MB   1337 new,   2722 zero    15.531 sec
+   8 290655    350      8875 x 13111       57.5 per row,     3.9 MB    174 new,    176 zero     2.888 sec
+   9 310928   3251     71771 x 190575     155.9 per row,    85.7 MB    736 new,   2515 zero    16.077 sec
+   9 346968    700     22180 x 32431      112.1 per row,    19.1 MB      0 new,    700 zero     1.280 sec
+  10 346268  35096   1362682 x 2731063    372.7 per row,  3879.5 MB   7365 new,  27731 zero error in mgb
+ total time:       506.367 sec
+------------------------------
+-> F4 algorithm
+ domain: mod_int_cof   coeffs: mod_int
+ ----------------------------
+ basis: 73 of 73, syzygies: 91 of 435, degree: 4
+ 65 x 65 with 91 rhs
+ symbolic preproc       0.076 sec
+ linear solve           0.004 sec
+ build result           0.003 sec
+ 91 non-zero remainders
+ 91 distinct leading terms
+ inter reduce           0.001 sec
+ 91 polynomials added to basis
+ ----------------------------
+ basis: 164 of 164, syzygies: 147 of 1468, degree: 3
+ 112 x 112 with 147 rhs
+ symbolic preproc       0.029 sec
+ linear solve           0.009 sec
+ build result           0.001 sec
+ 0 non-zero remainders
+ 0 distinct leading terms
+ 0 polynomials added to basis
+ ----------------------------
+ basis: 164 of 164, syzygies: 126 of 1321, degree: 4
+ 223 x 223 with 126 rhs
+ symbolic preproc       0.067 sec
+ linear solve           0.015 sec
+ build result           0.003 sec
+ 0 non-zero remainders
+ 0 distinct leading terms
+ 0 polynomials added to basis
+ ----------------------------
+ basis: 164 of 164, syzygies: 697 of 1195, degree: 5
+ 1450 x 1450 with 697 rhs
+ symbolic preproc       0.837 sec
+ linear solve           0.551 sec
+ build result           0.061 sec
+ 234 non-zero remainders
+ 111 distinct leading terms
+ inter reduce           0.016 sec
+ 154 polynomials added to basis
+ ----------------------------
+ basis: 318 of 318, syzygies: 198 of 4316, degree: 4
+ 406 x 406 with 198 rhs
+ symbolic preproc       0.566 sec
+ linear solve           0.037 sec
+ build result           0.010 sec
+ 19 non-zero remainders
+ 4 distinct leading terms
+ inter reduce           0.002 sec
+ 4 polynomials added to basis
+ ----------------------------
+ basis: 322 of 322, syzygies: 564 of 4197, degree: 5
+ 2670 x 2670 with 564 rhs
+ symbolic preproc       2.806 sec
+ linear solve           0.658 sec
+ build result           0.459 sec
+ 210 non-zero remainders
+ 38 distinct leading terms
+ inter reduce           0.037 sec
+ 40 polynomials added to basis
+ ----------------------------
+ basis: 358 of 362, syzygies: 255 of 4589, degree: 5
+ 1052 x 1052 with 255 rhs
+ symbolic preproc       1.345 sec
+ linear solve           0.455 sec
+ build result           0.034 sec
+ 87 non-zero remainders
+ 19 distinct leading terms
+ inter reduce           0.029 sec
+ 87 polynomials added to basis
+ ----------------------------
+ basis: 427 of 449, syzygies: 382 of 6376, degree: 4
+ 902 x 902 with 382 rhs
+ symbolic preproc       1.574 sec
+ linear solve           0.626 sec
+ build result           0.279 sec
+ 300 non-zero remainders
+ 23 distinct leading terms
+ inter reduce           0.308 sec
+ 24 polynomials added to basis
+ ----------------------------
+ basis: 451 of 473, syzygies: 1065 of 6688, degree: 5
+ 6219 x 6219 with 1065 rhs
+ symbolic preproc      12.027 sec
+ linear solve          12.708 sec
+ build result           4.724 sec
+ 610 non-zero remainders
+ 60 distinct leading terms
+ inter reduce           0.915 sec
+ 70 polynomials added to basis
+ ----------------------------
+ basis: 506 of 543, syzygies: 183 of 7631, degree: 5
+ 1265 x 1265 with 183 rhs
+ symbolic preproc       3.444 sec
+ linear solve           0.235 sec
+ build result           0.460 sec
+ 8 non-zero remainders
+ 3 distinct leading terms
+ inter reduce           0.002 sec
+ 3 polynomials added to basis
+ ----------------------------
+ basis: 509 of 546, syzygies: 4046 of 7544, degree: 6
+ 30334 x 30334 with 4046 rhs
+ symbolic preproc      71.269 sec
+ linear solve         815.969 sec
+ build result          71.408 sec
+ 1047 non-zero remainders
+ 195 distinct leading terms
+ inter reduce           1.594 sec
+ 377 polynomials added to basis
+ ----------------------------
+ basis: 825 of 923, syzygies: 22 of 14586, degree: 4
+ 84 x 84 with 22 rhs
+ symbolic preproc       0.068 sec
+ linear solve           0.003 sec
+ build result           0.001 sec
+ 0 non-zero remainders
+ 0 distinct leading terms
+ 0 polynomials added to basis
+ ----------------------------
+ basis: 825 of 923, syzygies: 1699 of 14564, degree: 5
+ 4455 x 4455 with 1699 rhs
+ symbolic preproc      25.514 sec
+ linear solve          19.631 sec
+ build result          23.880 sec
+ 1197 non-zero remainders
+ 90 distinct leading terms
+ inter reduce          15.098 sec
+ 102 polynomials added to basis
+ ----------------------------
+ basis: 927 of 1025, syzygies: 5847 of 17368, degree: 6
+ 28115 x 28115 with 5847 rhs
+ symbolic preproc     217.605 sec
+Interrupted
+-> MGb
+ domain: mod_int_cof
+F4 algorithm
+prime=11863279

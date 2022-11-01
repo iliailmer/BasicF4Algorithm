@@ -1,0 +1,83 @@
+    |\^/|     Maple 2022 (X86 64 LINUX)
+._|\|   |/|_. Copyright (c) Maplesoft, a division of Waterloo Maple Inc. 2022
+ \  MAPLE  /  All rights reserved. Maple is a trademark of
+ <____ ____>  Waterloo Maple Inc.
+      |       Type ? for help.
+> read "../custom_f4.mpl":
+> kernelopts(printbytes=false, assertlevel=1):
+> interface(echo=0, prettyprint=0):
+
+
+Weights:    w
+
+-> MGb
+ domain: mod_int_cof
+F4 algorithm
+prime=11863279
+ deg  pairs  taken         matrix                                        found
+   3    179     55       440 x 418          2.5 per row,     0.0 MB     19 new,     36 zero     0.016 sec
+   2    132     18        81 x 71           3.1 per row,     0.0 MB      0 new,     18 zero     0.010 sec
+   3    114     53       243 x 269          4.4 per row,     0.0 MB      7 new,     46 zero     0.011 sec
+   4    110     79       481 x 969          9.2 per row,     0.0 MB     58 new,     21 zero     0.028 sec
+   4    483     54       360 x 696          8.8 per row,     0.0 MB     36 new,     18 zero     0.005 sec
+   5    705    652      3854 x 9072        21.7 per row,     0.7 MB    320 new,    332 zero     0.109 sec
+   4   3173     28        56 x 168         10.8 per row,     0.0 MB     28 new,      0 zero     0.009 sec
+   4   4580    189       619 x 1968        21.7 per row,     0.1 MB    113 new,     76 zero     0.041 sec
+   4   8962    100      1059 x 1966        18.8 per row,     0.2 MB     30 new,     70 zero     0.015 sec
+   3   8937     85       283 x 548         24.5 per row,     0.1 MB      0 new,     85 zero     0.002 sec
+   4   8852     95       743 x 1520        17.3 per row,     0.1 MB     25 new,     70 zero     0.012 sec
+   5   9162   2678     19387 x 39692       46.6 per row,     7.0 MB    707 new,   1971 zero     0.874 sec
+   4  16884     62      1076 x 2474        18.8 per row,     0.2 MB     14 new,     48 zero     0.039 sec
+   5  16732   1752     33940 x 81054       70.7 per row,    18.4 MB    824 new,    931 zero     1.736 sec
+   4  25907     18       103 x 308         15.0 per row,     0.0 MB     14 new,      4 zero     0.069 sec
+   3  22623     14        57 x 280         17.3 per row,     0.0 MB      6 new,      8 zero     0.025 sec
+   4  22623    254      1980 x 5298        39.6 per row,     0.6 MB    176 new,     78 zero     0.210 sec
+   4  21598    210      2707 x 9022        72.5 per row,     1.5 MB    113 new,     97 zero     0.156 sec
+   4  22267     34      1536 x 7156       126.9 per row,     1.5 MB     19 new,     15 zero     0.054 sec
+   5  22546   4820     46545 x 92237      193.6 per row,    68.9 MB   2412 new,   2427 zero     8.260 sec
+   3  35992     34       190 x 432         12.8 per row,     0.0 MB     16 new,     18 zero     0.391 sec
+   3  30144     43       238 x 930         34.8 per row,     0.1 MB     22 new,     21 zero     0.192 sec
+   3  26417     47       260 x 761         32.1 per row,     0.1 MB      6 new,     41 zero     0.167 sec
+   4  26048   1137      7511 x 15302      196.5 per row,    11.3 MB    352 new,    788 zero     0.603 sec
+   4  24310    331      5412 x 12113      125.3 per row,     5.2 MB    158 new,    173 zero     0.364 sec
+   4  25659     87      1631 x 4686       136.0 per row,     1.7 MB     49 new,     38 zero     0.228 sec
+   4  26052     83      4432 x 11504      144.8 per row,     4.9 MB     50 new,     33 zero     0.246 sec
+   5  26638  14466    102078 x 136087     470.5 per row,   366.8 MB   5162 new,   9517 zero    30.633 sec
+   4  75454     53      2018 x 6029       166.5 per row,     2.6 MB     43 new,     10 zero     0.919 sec
+   5  75194  20386    120850 x 150185     991.7 per row,   914.8 MB   7522 new,  12864 zero   102.002 sec
+   4 133902    125      3522 x 8053       446.1 per row,    12.0 MB     19 new,    106 zero     2.152 sec
+   5 133481  28697    139305 x 150817    1728.2 per row,  1837.3 MB   9694 new,  19003 zero   185.215 sec
+   5 178366  52003    180090 x 157752    2364.9 per row,  3250.0 MB   5749 new,  46254 zero   118.943 sec
+   5 187895  31444    175167 x 171699    2123.1 per row,  2838.1 MB   5824 new,  25620 zero   154.072 sec
+   5 215569  47344    206589 x 182346    2616.0 per row,  4124.0 MB   5011 new,  42333 zero   116.478 sec
+   4 146546    904     16426 x 21854     2060.3 per row,   258.3 MB     76 new,    828 zero     2.539 sec
+   5 145867  71119    242409 x 187867    2148.6 per row,  3974.6 MB   2627 new,  68497 zero    51.432 sec
+   5 109728  34790    209880 x 189186    1953.3 per row,  3128.5 MB   1686 new,  33104 zero    37.760 sec
+   5  94024  21702    192825 x 182811    1773.6 per row,  2609.9 MB   1179 new,  20523 zero    26.084 sec
+   5  76843  22067    189514 x 177430    1723.8 per row,  2493.2 MB   1231 new,  20836 zero    24.999 sec
+   5  71481  25636    186753 x 169854    1865.3 per row,  2658.5 MB    695 new,  24941 zero    18.186 sec
+   5  59883   4719    154017 x 157601    1619.8 per row,  1904.0 MB    878 new,   3841 zero    19.666 sec
+   3  56866     35       240 x 1126       100.7 per row,     0.2 MB     18 new,     17 zero     0.990 sec
+   3  57213     28       252 x 764         37.6 per row,     0.1 MB     11 new,     17 zero     0.694 sec
+   3  52602    123       741 x 3146       321.3 per row,     1.8 MB     64 new,     59 zero     1.131 sec
+   4  53920   7517     37366 x 34363     1878.9 per row,   535.8 MB   3818 new,   3742 zero    27.716 sec
+   2  19604    325       683 x 365          4.1 per row,     0.0 MB      1 new,    324 zero     0.464 sec
+   3  19272   3295      6910 x 3643        57.6 per row,     3.1 MB      7 new,   3288 zero     0.297 sec
+   2  14004     16        43 x 34           2.3 per row,     0.0 MB      5 new,     11 zero     0.277 sec
+   2  13501      7        24 x 20           2.7 per row,     0.0 MB      1 new,      6 zero     0.266 sec
+   3  13488      2       167 x 167          3.7 per row,     0.0 MB      0 new,      2 zero     0.269 sec
+   4  13486  11798     31674 x 19878     1212.7 per row,   293.2 MB      0 new,  11798 zero     0.621 sec
+   5   1688   1688     44543 x 42857      273.6 per row,    93.1 MB      0 new,   1688 zero     0.349 sec
+reduce:                   50 x 52           2.6 per row,     0.0 MB
+select:     28.566 sec   3%
+symbol:     45.025 sec   5%
+matrix:    277.979 sec  30%   56895 good, 86.2% zero
+update:    586.459 sec  62%  413301 pair, 99.9% elim
+gbasis:    938.417 sec   3%      50 polynomials
+basis:   14392.675
+ 50 polynomials, 122 terms
+ total time:       938.422 sec
+------------------------------
+
+gb
+memory used=3.1MB, alloc=8.3MB, time=14392.73

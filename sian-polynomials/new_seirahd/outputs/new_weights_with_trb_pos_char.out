@@ -1,0 +1,175 @@
+    |\^/|     Maple 2022 (X86 64 LINUX)
+._|\|   |/|_. Copyright (c) Maplesoft, a division of Waterloo Maple Inc. 2022
+ \  MAPLE  /  All rights reserved. Maple is a trademark of
+ <____ ____>  Waterloo Maple Inc.
+      |       Type ? for help.
+> read "../custom_f4.mpl":
+> kernelopts(printbytes=false, assertlevel=1):
+> interface(echo=0, prettyprint=0):
+
+
+iteration no. 1	 max. iterations: -1
+time for selection: .549
+time for computing M: 5.605, size:Array(1..2, [231,243])
+time for computing N (rref): 6.383
+time for computing leading monomials: .13e-1
+time for computing N+: 2.300
+
+
+iteration no. 2	 max. iterations: -1
+time for selection: .519
+
+
+Weights:    {Phi = Phi^2, a_0 = a_0^2, a_1 = a_1^2, a_2 = a_2^2, a_3 = a_3^2, a_4 = a_4^2, a_5 = a_5^2, a_6 = a_6^2, a_7 = a_7^2, a_8 = a_8^2, a_9 = a_9^2, dlt = dlt^2, e_0 = e_0^2, e_1 = e_1^2, e_2 = e_2^2, e_3 = e_3^2, e_4 = e_4^2, e_5 = e_5^2, e_6 = e_6^2, e_7 = e_7^2, e_8 = e_8^2, e_9 = e_9^2, gamma_a = gamma_a^2, gamma_h = gamma_h^2, gamma_i = gamma_i^2, i_0 = i_0^2, i_1 = i_1^2, i_10 = i_10^2, i_2 = i_2^2, i_3 = i_3^2, i_4 = i_4^2, i_5 = i_5^2, i_6 = i_6^2, i_7 = i_7^2, i_8 = i_8^2, i_9 = i_9^2, w_aux = w_aux^2}
+
+-> MGb
+ domain: mod_int_cof
+F4 algorithm
+prime=11863279
+ deg  pairs  taken         matrix                                        found
+   4    147     19       103 x 216          9.2 per row,     0.0 MB     19 new,      0 zero     0.015 sec
+   5    227     22       317 x 662          9.7 per row,     0.0 MB     22 new,      0 zero     0.022 sec
+   4    434     18        36 x 84           4.0 per row,     0.0 MB      9 new,      9 zero     0.000 sec
+   4    461     45        99 x 343          8.0 per row,     0.0 MB     36 new,      9 zero     0.002 sec
+   5    682    201       668 x 1560        10.1 per row,     0.1 MB     72 new,    129 zero     0.011 sec
+   5   1490    240       861 x 2024        17.4 per row,     0.1 MB    120 new,    120 zero     0.022 sec
+   4   2927    210       660 x 1255        87.6 per row,     0.4 MB      0 new,    210 zero     0.004 sec
+   5   2717    252      1473 x 3002        47.2 per row,     0.5 MB     28 new,    224 zero     0.011 sec
+   5   3023    196       879 x 2299        65.2 per row,     0.4 MB     28 new,    168 zero     0.009 sec
+   5   3427    105      1087 x 3378       110.9 per row,     0.9 MB     14 new,     91 zero     0.009 sec
+   6   3609   2580     21311 x 31542       40.6 per row,     6.7 MB    794 new,   1786 zero     0.642 sec
+   5  13768   2592      6750 x 6996        87.7 per row,     4.5 MB     36 new,   2556 zero     0.059 sec
+   6  11948   4331     22017 x 32000       61.1 per row,    10.3 MB    429 new,   3902 zero     0.653 sec
+   6  16258   2426     18938 x 45428      120.2 per row,    17.4 MB   1722 new,    704 zero     4.069 sec
+   7  62299  21639    212760 x 316782     352.5 per row,   573.0 MB   5281 new,  16360 zero    50.152 sec
+   6 171522    278     12200 x 38991      189.1 per row,    17.7 MB    226 new,     52 zero     3.047 sec
+   7 178353  11212    195510 x 334851     656.6 per row,   980.1 MB   4026 new,   7186 zero    70.499 sec
+   7 264495   4626    141580 x 274287    1272.1 per row,  1374.6 MB   2195 new,   2431 zero    48.072 sec
+   7 328123    149    130226 x 264787    1331.7 per row,  1323.6 MB     75 new,     74 zero     8.416 sec
+   8 330334 152104   1480994 x 1833679   2209.7 per row, 24973.6 MB  29280 new, 122879 zero error in mgb
+ total time:      4239.281 sec
+------------------------------
+-> F4 algorithm
+ domain: mod_int_cof   coeffs: mod_int
+ ----------------------------
+ basis: 31 of 50, syzygies: 19 of 115, degree: 4
+ 20 x 20 with 19 rhs
+ symbolic preproc       0.007 sec
+ linear solve           0.001 sec
+ build result           0.000 sec
+ 19 non-zero remainders
+ 19 distinct leading terms
+ inter reduce           0.000 sec
+ 19 polynomials added to basis
+ ----------------------------
+ basis: 50 of 69, syzygies: 24 of 204, degree: 5
+ 287 x 287 with 24 rhs
+ symbolic preproc       0.177 sec
+ linear solve           0.014 sec
+ build result           0.004 sec
+ 24 non-zero remainders
+ 22 distinct leading terms
+ inter reduce           0.001 sec
+ 22 polynomials added to basis
+ ----------------------------
+ basis: 54 of 91, syzygies: 18 of 400, degree: 4
+ 0 x 0 with 18 rhs
+ symbolic preproc       0.005 sec
+ 9 non-zero remainders
+ 9 distinct leading terms
+ inter reduce           0.000 sec
+ 9 polynomials added to basis
+ ----------------------------
+ basis: 54 of 100, syzygies: 45 of 427, degree: 4
+ 9 x 9 with 45 rhs
+ symbolic preproc       0.024 sec
+ linear solve           0.000 sec
+ build result           0.001 sec
+ 36 non-zero remainders
+ 36 distinct leading terms
+ inter reduce           0.001 sec
+ 36 polynomials added to basis
+ ----------------------------
+ basis: 90 of 136, syzygies: 201 of 774, degree: 5
+ 266 x 266 with 201 rhs
+ symbolic preproc       0.291 sec
+ linear solve           0.024 sec
+ build result           0.010 sec
+ 72 non-zero remainders
+ 72 distinct leading terms
+ inter reduce           0.000 sec
+ 72 polynomials added to basis
+ ----------------------------
+ basis: 162 of 208, syzygies: 268 of 1782, degree: 5
+ 542 x 542 with 268 rhs
+ symbolic preproc       0.756 sec
+ linear solve           0.085 sec
+ build result           0.033 sec
+ 170 non-zero remainders
+ 64 distinct leading terms
+ inter reduce           0.150 sec
+ 120 polynomials added to basis
+ ----------------------------
+ basis: 254 of 328, syzygies: 315 of 4826, degree: 4
+ 453 x 453 with 315 rhs
+ symbolic preproc       1.095 sec
+ linear solve           0.168 sec
+ build result           0.650 sec
+ 0 non-zero remainders
+ 0 distinct leading terms
+ 0 polynomials added to basis
+ ----------------------------
+ basis: 254 of 328, syzygies: 517 of 4511, degree: 5
+ 3245 x 3245 with 517 rhs
+ symbolic preproc       4.213 sec
+ linear solve           3.846 sec
+ build result           3.684 sec
+ 28 non-zero remainders
+ 28 distinct leading terms
+ inter reduce           0.001 sec
+ 28 polynomials added to basis
+ ----------------------------
+ basis: 282 of 356, syzygies: 343 of 4781, degree: 5
+ 830 x 830 with 343 rhs
+ symbolic preproc       2.295 sec
+ linear solve           0.304 sec
+ build result           0.538 sec
+ 70 non-zero remainders
+ 13 distinct leading terms
+ inter reduce           0.055 sec
+ 28 polynomials added to basis
+ ----------------------------
+ basis: 310 of 384, syzygies: 180 of 5611, degree: 5
+ 998 x 998 with 180 rhs
+ symbolic preproc       3.447 sec
+ linear solve           0.537 sec
+ build result           0.572 sec
+ 130 non-zero remainders
+ 14 distinct leading terms
+ inter reduce           0.720 sec
+ 14 polynomials added to basis
+ ----------------------------
+ basis: 324 of 398, syzygies: 4080 of 5999, degree: 6
+ 19525 x 19525 with 4080 rhs
+ symbolic preproc      32.742 sec
+ linear solve         270.622 sec
+ build result          81.694 sec
+ 2168 non-zero remainders
+ 662 distinct leading terms
+ inter reduce           8.366 sec
+ 794 polynomials added to basis
+ ----------------------------
+ basis: 842 of 1192, syzygies: 4160 of 21474, degree: 5
+ 4218 x 4218 with 4160 rhs
+ symbolic preproc      46.819 sec
+ linear solve         187.814 sec
+ build result         155.355 sec
+ 82 non-zero remainders
+ 33 distinct leading terms
+ inter reduce           0.004 sec
+ 36 polynomials added to basis
+ ----------------------------
+ basis: 878 of 1228, syzygies: 6249 of 18662, degree: 6
+ 22444 x 22444 with 6249 rhs
+ symbolic preproc     228.069 sec
+ linear solve        2656.197 sec

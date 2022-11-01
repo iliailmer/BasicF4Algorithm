@@ -1,0 +1,115 @@
+    |\^/|     Maple 2022 (X86 64 LINUX)
+._|\|   |/|_. Copyright (c) Maplesoft, a division of Waterloo Maple Inc. 2022
+ \  MAPLE  /  All rights reserved. Maple is a trademark of
+ <____ ____>  Waterloo Maple Inc.
+      |       Type ? for help.
+> read "../custom_f4.mpl":
+> kernelopts(printbytes=false, assertlevel=1):
+> interface(echo=0, prettyprint=0):
+
+
+Weights:    w
+
+-> MGb
+ domain: mod_int_cof
+F4 algorithm
+prime=11863279
+ deg  pairs  taken         matrix                                        found
+   3    373     11        33 x 122          4.7 per row,     0.0 MB     11 new,      0 zero     0.016 sec
+   3    440     55       110 x 745         10.0 per row,     0.0 MB     55 new,      0 zero     0.008 sec
+   4    946    529      2689 x 9271         8.6 per row,     0.2 MB    254 new,    275 zero     0.115 sec
+   2   4796     11        34 x 28           4.1 per row,     0.0 MB      0 new,     11 zero     0.003 sec
+   3   4785    462      1291 x 1249         3.0 per row,     0.0 MB     55 new,    407 zero     0.022 sec
+   4   5478   4071     22062 x 31174        9.8 per row,     1.7 MB   1010 new,   3061 zero     1.287 sec
+   4  14763   5850     19770 x 21622       16.3 per row,     2.5 MB    690 new,   5160 zero     0.959 sec
+   4  21004   1470     11773 x 15025       28.7 per row,     2.6 MB      0 new,   1470 zero     0.084 sec
+   5  19534  15416    108198 x 134866      23.5 per row,    19.8 MB    286 new,  15488 zero     1.567 sec
+   5  19995   1667     38012 x 56339       20.7 per row,     6.2 MB    134 new,   1533 zero     0.614 sec
+   6  28711   7815    176376 x 316199      21.2 per row,    29.2 MB   3349 new,   4466 zero    22.184 sec
+   5 158311   8462     35997 x 78892      112.2 per row,    30.9 MB   2654 new,   5808 zero    32.724 sec
+   5 401763   4869     42093 x 105189     690.5 per row,   221.9 MB   1105 new,   3764 zero    25.288 sec
+   6 503963 113892   1529622 x 3196784    545.6 per row,  6372.9 MB  24059 new,  89905 zero error in mgb
+ total time:      1414.179 sec
+------------------------------
+-> F4 algorithm
+ domain: mod_int_cof   coeffs: mod_int
+ ----------------------------
+ basis: 62 of 73, syzygies: 11 of 390, degree: 3
+ 11 x 11 with 11 rhs
+ symbolic preproc       0.011 sec
+ linear solve           0.001 sec
+ build result           0.000 sec
+ 11 non-zero remainders
+ 11 distinct leading terms
+ inter reduce           0.001 sec
+ 11 polynomials added to basis
+ ----------------------------
+ basis: 73 of 84, syzygies: 55 of 457, degree: 3
+ 0 x 0 with 55 rhs
+ symbolic preproc       0.073 sec
+ 55 non-zero remainders
+ 55 distinct leading terms
+ inter reduce           0.001 sec
+ 55 polynomials added to basis
+ ----------------------------
+ basis: 128 of 139, syzygies: 529 of 963, degree: 4
+ 1575 x 1575 with 529 rhs
+ symbolic preproc       2.220 sec
+ linear solve           0.660 sec
+ build result           0.082 sec
+ 309 non-zero remainders
+ 243 distinct leading terms
+ inter reduce           0.028 sec
+ 254 polynomials added to basis
+ ----------------------------
+ basis: 360 of 393, syzygies: 11 of 5876, degree: 2
+ 33 x 33 with 11 rhs
+ symbolic preproc       0.012 sec
+ linear solve           0.001 sec
+ build result           0.000 sec
+ 0 non-zero remainders
+ 0 distinct leading terms
+ 0 polynomials added to basis
+ ----------------------------
+ basis: 360 of 393, syzygies: 569 of 5865, degree: 3
+ 720 x 720 with 569 rhs
+ symbolic preproc       0.756 sec
+ linear solve           0.381 sec
+ build result           0.016 sec
+ 100 non-zero remainders
+ 55 distinct leading terms
+ inter reduce           0.001 sec
+ 55 polynomials added to basis
+ ----------------------------
+ basis: 415 of 448, syzygies: 5271 of 6836, degree: 4
+ 17842 x 17842 with 5271 rhs
+ symbolic preproc      28.518 sec
+ linear solve         183.107 sec
+ build result          16.994 sec
+ 2420 non-zero remainders
+ 845 distinct leading terms
+ inter reduce           0.379 sec
+ 1010 polynomials added to basis
+ ----------------------------
+ basis: 900 of 1458, syzygies: 8175 of 20207, degree: 4
+ 13733 x 13733 with 8175 rhs
+ symbolic preproc     185.394 sec
+ linear solve         485.913 sec
+ build result          70.711 sec
+ 2610 non-zero remainders
+ 606 distinct leading terms
+ inter reduce           0.427 sec
+ 690 polynomials added to basis
+ ----------------------------
+ basis: 1254 of 2148, syzygies: 2688 of 31165, degree: 4
+ 10932 x 10932 with 2688 rhs
+ symbolic preproc     212.530 sec
+ linear solve         206.712 sec
+ build result          38.200 sec
+ 0 non-zero remainders
+ 0 distinct leading terms
+ 0 polynomials added to basis
+ ----------------------------
+ basis: 1254 of 2148, syzygies: 23588 of 28477, degree: 5
+ 118676 x 118676 with 23588 rhs
+ symbolic preproc    2013.380 sec

@@ -1,0 +1,59 @@
+    |\^/|     Maple 2022 (X86 64 LINUX)
+._|\|   |/|_. Copyright (c) Maplesoft, a division of Waterloo Maple Inc. 2022
+ \  MAPLE  /  All rights reserved. Maple is a trademark of
+ <____ ____>  Waterloo Maple Inc.
+      |       Type ? for help.
+> read "../custom_f4.mpl":
+> kernelopts(printbytes=false, assertlevel=1):
+> interface(echo=0, prettyprint=0):
+
+
+iteration no. 1	 max. iterations: -1
+time for selection: .235
+time for computing M: 5.014, size:Array(1..2, [239,250])
+time for computing N (rref): 7.171
+time for computing leading monomials: .11e-1
+time for computing N+: 1.218
+
+
+iteration no. 2	 max. iterations: -1
+time for selection: .337
+
+
+Weights:    {b = b^2, e_0 = e_0^2, e_1 = e_1^2, e_2 = e_2^2, e_3 = e_3^2, e_4 = e_4^2, e_5 = e_5^2, e_6 = e_6^2, e_7 = e_7^2, e_8 = e_8^2, i_0 = i_0^2, i_1 = i_1^2, i_2 = i_2^2, i_3 = i_3^2, i_4 = i_4^2, i_5 = i_5^2, i_6 = i_6^2, i_7 = i_7^2, i_8 = i_8^2, i_9 = i_9^2, mu = mu^2, rho = rho^2, s_0 = s_0^2, s_1 = s_1^2, s_2 = s_2^2, s_3 = s_3^2, s_4 = s_4^2, s_5 = s_5^2, s_6 = s_6^2, s_7 = s_7^2, w_aux = w_aux^2}
+
+-> MGb
+ domain: mod_int_cof
+F4 algorithm
+prime=11863279
+ deg  pairs  taken         matrix                                        found
+   2    110      9        27 x 47           3.0 per row,     0.0 MB      9 new,      0 zero     0.004 sec
+   3    145    115       429 x 680          3.6 per row,     0.0 MB     79 new,     36 zero     0.049 sec
+   3    510    300       745 x 917          8.8 per row,     0.1 MB     96 new,    204 zero     0.009 sec
+   3   1522   1012      3159 x 3710        16.9 per row,     0.4 MB    211 new,    801 zero     0.047 sec
+   3   3171   1048      3585 x 3738        25.4 per row,     0.7 MB    107 new,    941 zero     0.027 sec
+   3   2901    657      2882 x 3230        21.2 per row,     0.5 MB     56 new,    601 zero     0.017 sec
+   3   3390     89      1266 x 1888        22.9 per row,     0.2 MB     18 new,     71 zero     0.007 sec
+   3   3684     22       513 x 942         22.2 per row,     0.1 MB      0 new,     22 zero     0.002 sec
+   4   3662   3561     20885 x 21001       35.2 per row,     5.7 MB    259 new,   3325 zero     0.228 sec
+   3   5211    251      1597 x 1881        22.6 per row,     0.3 MB      1 new,    250 zero     0.007 sec
+   4   4964    639      7920 x 9797        33.1 per row,     2.0 MB    180 new,    459 zero     0.103 sec
+   4   8490    205      4089 x 5522        55.5 per row,     1.7 MB     76 new,    129 zero     0.054 sec
+   5  10382  10366     69519 x 67854       92.8 per row,    49.5 MB   1314 new,   9052 zero     1.864 sec
+   4  20748   7366     31615 x 27618      230.2 per row,    55.6 MB   1824 new,   5542 zero     3.095 sec
+   3  21976    826      5485 x 5255       124.0 per row,     5.2 MB    514 new,    312 zero     0.455 sec
+   2   3781    519      1072 x 555         12.6 per row,     0.1 MB      0 new,    519 zero     0.015 sec
+   3   3262   1360      3437 x 2079        93.6 per row,     2.5 MB      0 new,   1360 zero     0.015 sec
+   4   1902   1512      8271 x 6761       134.7 per row,     8.5 MB      0 new,   1512 zero     0.030 sec
+   5    390    390     13068 x 12680       60.3 per row,     6.1 MB      0 new,    390 zero     0.033 sec
+reduce:                   44 x 46           2.7 per row,     0.0 MB
+select:      0.504 sec   8%
+symbol:      0.313 sec   5%
+matrix:      0.572 sec   9%    4744 good, 84.3% zero
+update:      4.669 sec  77%   30247 pair, 99.5% elim
+gbasis:      6.092 sec   9%      43 polynomials
+basis:      65.397
+ 43 polynomials, 105 terms
+ total time:         6.094 sec
+------------------------------
+memory used=1449.0MB, alloc=46.4MB, time=79.52
