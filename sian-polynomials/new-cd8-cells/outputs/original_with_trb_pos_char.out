@@ -3,5 +3,46 @@
  \  MAPLE  /  All rights reserved. Maple is a trademark of
  <____ ____>  Waterloo Maple Inc.
       |       Type ? for help.
-> quit
-memory used=0.9MB, alloc=8.3MB, time=0.04
+> read "../custom_f4.mpl":
+> kernelopts(printbytes=false, assertlevel=1):
+> interface(echo=0, prettyprint=0):
+
+
+Weights:    w
+
+-> MGb
+ domain: mod_int_cof
+F4 algorithm
+prime=11863279
+ deg  pairs  taken         matrix                                        found
+   2     49      6        24 x 27           2.5 per row,     0.0 MB      6 new,      0 zero     0.004 sec
+   3     63     46       233 x 268          3.1 per row,     0.0 MB     25 new,     21 zero     0.001 sec
+   2     83      8        19 x 17           4.5 per row,     0.0 MB      0 new,      8 zero     0.000 sec
+   3     75     32       153 x 209          4.6 per row,     0.0 MB     15 new,     17 zero     0.001 sec
+   2     86      8        18 x 13           2.3 per row,     0.0 MB      0 new,      8 zero     0.000 sec
+   3     78     19       103 x 137          4.5 per row,     0.0 MB      8 new,     11 zero     0.001 sec
+   3    112      5        20 x 33           6.5 per row,     0.0 MB      1 new,      4 zero     0.000 sec
+   3    110      3        25 x 40           6.8 per row,     0.0 MB      0 new,      3 zero     0.000 sec
+   4    107     78       734 x 934          5.4 per row,     0.0 MB     60 new,     18 zero     0.005 sec
+   2    253      6        20 x 28           5.1 per row,     0.0 MB      3 new,      3 zero     0.000 sec
+   2    207      5        19 x 21           4.3 per row,     0.0 MB      2 new,      3 zero     0.000 sec
+   2    199      2         5 x 5            2.4 per row,     0.0 MB      0 new,      2 zero     0.000 sec
+   3    197     46       209 x 224          5.7 per row,     0.0 MB     15 new,     31 zero     0.001 sec
+   2    122      3        11 x 15           4.0 per row,     0.0 MB      2 new,      1 zero     0.000 sec
+   3    126     38       145 x 171          5.2 per row,     0.0 MB     23 new,     15 zero     0.001 sec
+   3    176    107       360 x 338          6.0 per row,     0.0 MB     48 new,     59 zero     0.002 sec
+   2    157     52       122 x 76           3.5 per row,     0.0 MB      3 new,     49 zero     0.000 sec
+   2     62      5        17 x 13           2.9 per row,     0.0 MB      0 new,      5 zero     0.000 sec
+   3     57     31       164 x 137          3.2 per row,     0.0 MB      0 new,     31 zero     0.000 sec
+   4     26     26       260 x 237          4.6 per row,     0.0 MB      0 new,     26 zero     0.000 sec
+reduce:                   45 x 48           2.5 per row,     0.0 MB
+select:      0.005 sec  18%
+symbol:      0.003 sec  11%
+matrix:      0.005 sec  17%     211 good, 59.9% zero
+update:      0.006 sec  23%     526 pair, 96.4% elim
+gbasis:      0.027 sec  49%      45 polynomials
+basis:       0.182
+ 45 polynomials, 90 terms
+ total time:         0.029 sec
+------------------------------
+memory used=2.1MB, alloc=8.3MB, time=0.23

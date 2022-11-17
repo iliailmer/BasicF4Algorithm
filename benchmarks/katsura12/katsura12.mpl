@@ -22,7 +22,7 @@ out := [entries(BasicF4Alg(sys, var, weights=""), `pairs`)]; # [x4 = 5, x5 = 9, 
 
 # print(Groebner:-IsBasis(out, tdeg(op(var))));
 _mean := add([seq(rhs(x), x in out)])/numelems(out):
-w:= {seq(lhs(v)=lhs(v)^2, v in select(x->rhs(x)<_mean, out))};
+w:= {seq(lhs(v)=lhs(v)^rand(1..2)(), v in select(x->rhs(x)>_mean, out))};
 print(w):
 
 gb := Groebner:-Basis(subs(w, sys), tdeg(op(var)), characteristic=11863279):

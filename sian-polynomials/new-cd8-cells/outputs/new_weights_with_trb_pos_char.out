@@ -10,3 +10,68 @@
 
 iteration no. 1	 max. iterations: -1
 time for selection: .352
+time for computing M: 10.059, size:Array(1..2, [579,393])
+time for computing N (rref): 53.359
+time for computing leading monomials: .27e-1
+time for computing N+: 6.073
+
+
+iteration no. 2	 max. iterations: -1
+time for selection: .350
+
+
+Weights:    {P_0 = P_0^2, P_1 = P_1^2, P_2 = P_2^2, P_3 = P_3^2, P_4 = P_4^2, P_5 = P_5^2, mu_EE = mu_EE^2, mu_LE = mu_LE^2, mu_LL = mu_LL^2, mu_M = mu_M^2, mu_N = mu_N^2, mu_P = mu_P^2, mu_PE = mu_PE^2, mu_PL = mu_PL^2, rho_E = rho_E^2, rho_P = rho_P^2, w_aux = w_aux^2, delta_EL = delta_EL^2, delta_NE = delta_NE^2}
+
+-> MGb
+ domain: mod_int_cof
+F4 algorithm
+prime=11863279
+ deg  pairs  taken         matrix                                        found
+   3     48      6        24 x 27           2.5 per row,     0.0 MB      6 new,      0 zero     0.006 sec
+   3     57     15        36 x 36           4.0 per row,     0.0 MB      9 new,      6 zero     0.001 sec
+   2     60      4        10 x 9            4.0 per row,     0.0 MB      0 new,      4 zero     0.000 sec
+   3     56      4         9 x 10           5.1 per row,     0.0 MB      0 new,      4 zero     0.000 sec
+   4     52     31       219 x 215          3.4 per row,     0.0 MB      5 new,     26 zero     0.001 sec
+   4     35      3        16 x 37           7.2 per row,     0.0 MB      3 new,      0 zero     0.000 sec
+   5     41     22       164 x 196          4.6 per row,     0.0 MB     16 new,      6 zero     0.001 sec
+   4    102      6        24 x 38           8.0 per row,     0.0 MB      4 new,      2 zero     0.000 sec
+   4     96      8        35 x 45           7.4 per row,     0.0 MB      4 new,      4 zero     0.000 sec
+   3    110      4        18 x 25           6.3 per row,     0.0 MB      2 new,      2 zero     0.000 sec
+   4    109     10        44 x 44           6.1 per row,     0.0 MB      3 new,      7 zero     0.000 sec
+   2     65      3         8 x 10           3.6 per row,     0.0 MB      1 new,      2 zero     0.000 sec
+   3     54      6        18 x 16           4.7 per row,     0.0 MB      1 new,      5 zero     0.000 sec
+   3     48      1         9 x 11           3.9 per row,     0.0 MB      0 new,      1 zero     0.000 sec
+   4     47      3        12 x 11           3.6 per row,     0.0 MB      0 new,      3 zero     0.000 sec
+   5     44      8        59 x 67           4.8 per row,     0.0 MB      4 new,      4 zero     0.000 sec
+   6     57     22       107 x 119          3.6 per row,     0.0 MB     14 new,      8 zero     0.001 sec
+   4     74      8        18 x 13           2.3 per row,     0.0 MB      0 new,      8 zero     0.000 sec
+   5     66      6        17 x 22           5.9 per row,     0.0 MB      6 new,      0 zero     0.000 sec
+   4     65      4        14 x 18           4.7 per row,     0.0 MB      3 new,      1 zero     0.000 sec
+   3     70      2        14 x 17           4.7 per row,     0.0 MB      0 new,      2 zero     0.000 sec
+   4     68      5        19 x 22           5.4 per row,     0.0 MB      3 new,      2 zero     0.000 sec
+   5     73     14        47 x 45           5.7 per row,     0.0 MB      2 new,     12 zero     0.000 sec
+   4     75      2        13 x 18           4.8 per row,     0.0 MB      2 new,      0 zero     0.000 sec
+   5     89     10        50 x 50           5.0 per row,     0.0 MB      1 new,      9 zero     0.000 sec
+   3     80      2        11 x 13           5.2 per row,     0.0 MB      2 new,      0 zero     0.000 sec
+   2     56      2         9 x 9            3.9 per row,     0.0 MB      1 new,      1 zero     0.000 sec
+   2     43      1         6 x 6            3.5 per row,     0.0 MB      0 new,      1 zero     0.000 sec
+   3     42      3        15 x 15           3.4 per row,     0.0 MB      1 new,      2 zero     0.000 sec
+   4     24      9        34 x 27           3.7 per row,     0.0 MB      0 new,      9 zero     0.000 sec
+   6     15     10       107 x 104          3.2 per row,     0.0 MB      4 new,      6 zero     0.000 sec
+   4     18      1         7 x 7            3.4 per row,     0.0 MB      0 new,      1 zero     0.000 sec
+   6     17      9        39 x 35           3.0 per row,     0.0 MB      3 new,      6 zero     0.000 sec
+   4     11      3         6 x 4            2.0 per row,     0.0 MB      0 new,      3 zero     0.000 sec
+   8      8      8        96 x 92           2.8 per row,     0.0 MB      1 new,      7 zero     0.000 sec
+   6      2      2        15 x 16           2.9 per row,     0.0 MB      1 new,      1 zero     0.000 sec
+   4      1      1         7 x 7            3.3 per row,     0.0 MB      0 new,      1 zero     0.000 sec
+reduce:                   45 x 48           2.6 per row,     0.0 MB
+select:      0.007 sec  25%
+symbol:      0.002 sec   6%
+matrix:      0.004 sec  16%     102 good, 60.5% zero
+update:      0.003 sec  12%     258 pair, 95.3% elim
+gbasis:      0.028 sec  66%      45 polynomials
+basis:       0.114
+ 45 polynomials, 90 terms
+ total time:         0.029 sec
+------------------------------
+memory used=5869.2MB, alloc=51.9MB, time=70.50
