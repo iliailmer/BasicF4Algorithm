@@ -1,5 +1,5 @@
 BasicF4Alg := proc(Ff, vars)
-    local Gg, ordering_, s, Bb, Bb_prime, i, j, 
+    local Gg, ordering_, s, Bb, Bb_prime, i, j,
     lcms, idxs, LM, LM_i, LM_j, Mm, LCM;
 
     Gg := Ff;
@@ -14,7 +14,7 @@ BasicF4Alg := proc(Ff, vars)
             end if;
         end do;
     end do;
-    
+
     while numelems(Bb)>0 do
         lcms := []:
         # pick pairs that have minimal degree in Ff
@@ -34,7 +34,7 @@ BasicF4Alg := proc(Ff, vars)
         Mm, Mon_, Hh := ComputeM(lcms, Gg, ordering_):
         N := LinearAlgebra:-ReducedRowEchelonForm(Mm);
         leading_monomials_ := {seq(Groebner:-LeadingMonomial(each, ordering_),  each in Hh)};
-        
+
         N := convert(N . Vector(Mon_), list);
         N_plus := [];
         for each in N do
@@ -71,6 +71,9 @@ ComputeM := proc(lcms, Gg, ordering_)
     Mon_ := GetMonomials(Hh, ordering_);
     while ({op(done_)} <> {op(Mon_)}) do
         tmp := select(x->not x in done_, Mon_);
+        if numelems(tmp) = 0 then
+            break:
+        end if:
         x_beta := tmp[1];
         done_ := [op(done_), x_beta];
         for each in Gg do
@@ -97,7 +100,7 @@ ComputeM := proc(lcms, Gg, ordering_)
             end do;
         end do;
     end do;
-    
+
     return Mm, Mon_, Hh:
 end proc:
 
